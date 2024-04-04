@@ -21,7 +21,7 @@ const Counter = () => {
           {counterState < 0 ? <Error>{counterState}</Error> : <Success>{counterState}</Success>}
         </h1>
         <Button onClick={() => setCounterState(counterState + 1)} text="+1"></Button>
-        <Button onClick={() => setCounterState(counterState + 1)} text="-1"></Button>
+        <Button onClick={() => setCounterState(counterState - 1)} text="-1"></Button>
       </div>
 		</>
 	);
