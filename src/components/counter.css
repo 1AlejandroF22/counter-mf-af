@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+.Counter-container {
+	font-family: "Kdam Thmor Pro", sans-serif;
+    text-align: center;
+    background-color: rgb(108, 108, 112);
+    color: aliceblue;
+    padding: 1rem;
+}
